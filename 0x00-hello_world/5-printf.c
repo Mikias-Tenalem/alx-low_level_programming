@@ -2,7 +2,7 @@
 /**
  * main- main function
  * Description- Prints the task phrase
- * Return- Returns void
+ * Return: Returns void
  */
 int main(void)
 {

@@ -5,7 +5,7 @@
 /* more headers goes there */
 /**
  * main- main function
- * Description- Prints the task phrase
+ * Description- Prints the task phrase according to the condition it meets
  * Return: Returns void
  */
 

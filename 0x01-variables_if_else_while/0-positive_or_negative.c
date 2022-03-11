@@ -1,9 +1,13 @@
+#include <stdio.h>
 #include <stdlib.h>
-
 #include <time.h>
 
 /* more headers goes there */
-
+/**
+ * main- main function
+ * Description- Prints the task phrase
+ * Return: Returns void
+ */
 
 
 /* betty style doc for function main goes there */

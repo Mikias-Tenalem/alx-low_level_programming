@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: main function
- * Description- Displays the size of different values
+ * main- main function
+ * Description: Displays the size of different values
  * Return: Returns void
  */
 int main(void)

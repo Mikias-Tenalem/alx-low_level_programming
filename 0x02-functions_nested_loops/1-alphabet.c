@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * main -Main function
  * Description- prints lowercase alphabet followed by new line

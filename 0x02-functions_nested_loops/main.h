@@ -1,8 +1,6 @@
-/**
- * main -Main function
- * Description - prints _putchar followed by new line
- * Return: Void
- */
+#ifndef MAIN_H
+#definr MAIN_H
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);
+#endif

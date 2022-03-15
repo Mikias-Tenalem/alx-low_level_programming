@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_alphabet_x10 -Main function
  * Description- prints 10 timews lowercase alphabet followed by new line

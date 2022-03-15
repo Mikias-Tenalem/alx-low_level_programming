@@ -8,6 +8,7 @@
  */
 void putchar_string(char *s)
 {
+
 	int i = 0;
 
 	while (s[i] != '\n' && i != '\0')
@@ -20,5 +21,6 @@ int main(void)
 {
 	char c[] = "_putchar";
 	putchar_string(c);
+	putchar ('\n');
 	return (0);
 }

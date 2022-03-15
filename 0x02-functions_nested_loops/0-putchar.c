@@ -7,6 +7,11 @@
  * Return: Void
  */
 void putchar_string(char *s)
+/**
+ * main -Main function
+ * Description - prints _putchar followed by new line
+ * Return: Void
+ */
 {
 	int i = 0;
 	while (s[i] != '\n' && s[i] != '\0')

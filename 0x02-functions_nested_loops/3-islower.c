@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 /**
  * _islower - main function that returns 1 oe 0
  * @c: takes in a character

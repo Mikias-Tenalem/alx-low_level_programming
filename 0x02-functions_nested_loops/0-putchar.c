@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	putchar ('_putchar');
+	char word = "_putchar"
+	putchar (word);
 	return (0);
 }

@@ -1,17 +1,12 @@
-#include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
  * main -Main function
  * Description - prints _putchar followed by new line
  * Return: Void
  */
 void putchar_string(char *s)
-/**
- * main - Main function
- * Description - prints _putchar followed by new line
- * Return: Void
- */
 {
 	int i = 0;
 	

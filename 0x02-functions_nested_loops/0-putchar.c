@@ -19,8 +19,9 @@ void putchar_string(char *s)
 }
 int main(void)
 {
-	char c[] = "_putchar";
-	putchar_string(c);
+	char s[] = "_putchar";
+	
+	putchar_string(s);
 	putchar ('\n');
 	return (0);
 }

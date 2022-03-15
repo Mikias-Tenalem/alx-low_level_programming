@@ -4,7 +4,7 @@
  * Description- affirms lowercase alphabet followed by new line
  * Return: Void
  */
-int _islower(int c)
+int _islower(char c)
 {
 	char c;
 

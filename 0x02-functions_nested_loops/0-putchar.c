@@ -8,12 +8,17 @@
  */
 void putchar_string(char *s)
 {
-	while (i >= 1 && i != NULL)
-	putchar (s[i]);
+	int i = 0;
+
+	while (s[i] != '\n' && i != '\0')
+	{
+		putchar (s[i]);
+		i++;
+	}
 }
 int main(void)
 {
 	char c[] = "_putchar";
-void putchar_string(c);
+	putchar_string(c);
 	return (0);
 }

@@ -5,13 +5,3 @@
  * Return: Void
  */
 void print_alphabet(void);
-void putchar_string(char *s)
-{
-	int i = 0;
-	
-	while (s[i] != '\n' && s[i] != '\0')
-	{
-		putchar (s[i]);
-		++i;
-	}
-}

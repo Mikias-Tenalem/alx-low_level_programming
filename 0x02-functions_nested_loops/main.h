@@ -4,6 +4,7 @@
  * Description - prints _putchar followed by new line
  * Return: Void
  */
+void print_alphabet(void);
 void putchar_string(char *s)
 {
 	int i = 0;
@@ -14,5 +15,3 @@ void putchar_string(char *s)
 		++i;
 	}
 }
-
-void print_alphabet(void);

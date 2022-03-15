@@ -8,21 +8,23 @@
  */
 void putchar_string(char *s)
 /**
- * main -Main function
+ * main - Main function
  * Description - prints _putchar followed by new line
  * Return: Void
  */
 {
 	int i = 0;
+	
 	while (s[i] != '\n' && s[i] != '\0')
 	{
-	    putchar (s[i]);
-	    ++i;
+		putchar (s[i]);
+		++i;
 	}
 }
 int main(void)
 {
 	char c[] = "_putchar";
+	
 	putchar_string(c);
 	putchar ('\n');
 	return (0);

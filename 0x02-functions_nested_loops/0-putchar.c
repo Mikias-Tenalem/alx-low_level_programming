@@ -6,9 +6,14 @@
  * Description - prints _putchar followed by new line
  * Return: Void
  */
+void putchar_string(char *s)
+{
+	while (i >= 1 && i != NULL)
+	putchar (s[i]);
+}
 int main(void)
 {
-	char word[] = "_putchar";
-	putchar (word);
+	char c[] = "_putchar";
+void putchar_string(c);
 	return (0);
 }

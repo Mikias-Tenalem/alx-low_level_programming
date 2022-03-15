@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-	char c[] = "abcdefghijklmnopqrstuvwxyz";
-
-	putchar_string(c);
+	print_alphabet(void);
 	putchar ('\n');
 	return (0);
 }

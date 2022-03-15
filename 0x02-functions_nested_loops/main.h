@@ -14,3 +14,10 @@ void putchar_string(char *s)
 		++i;
 	}
 }
+void print_alphabet(void)
+{
+	char i = 'a';
+
+	for ( i = 'a'; i <= 'z'; i++)
+		putchar(i);
+}

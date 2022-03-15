@@ -8,20 +8,17 @@
  */
 void putchar_string(char *s)
 {
-
-	int i = 0;
-
-	while (s[i] != '\n' && i != '\0')
+    int i = 0;
+	while (s[i] != '\n' && s[i] != '\0')
 	{
-		putchar (s[i]);
-		i++;
+	    putchar (s[i]);
+	    ++i;
 	}
 }
-int main(void)
+int main()
 {
-	char s[] = "_putchar";
-	
-	putchar_string(s);
-	putchar ('\n');
+	char c[] = "_putchar";
+    putchar_string(c);
+    putchar ('\n');
 	return (0);
 }

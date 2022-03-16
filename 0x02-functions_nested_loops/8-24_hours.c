@@ -9,11 +9,22 @@
  */
 void jack_bauer(int n)
 {
-	n %= 10;
+	int x = 0;
+	int j = 0;
 
-	if (n < 0)
-		n *= -1;
-
-	_putchar(n + '0');
-	return (n);
+	while (x <= 23)
+	{
+		j = 0;
+		while (j <= 59)
+		{
+			_putchar((x / 10) + '0');
+			_putchar((x % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j += 1;
+		}
+		x += 1;
+	}
 }

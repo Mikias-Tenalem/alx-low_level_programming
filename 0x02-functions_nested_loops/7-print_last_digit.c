@@ -15,11 +15,13 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		p = ((-1) * (n % 10));
-		return (p + (p*10));
+		p = (p + (p*10));
+		return (p);
 	}
 	else
 	{
 		p = n % 10;
-		return (p + (p*10));
+		p = (p + (p*10));
+		return (p);
 	}
 }	

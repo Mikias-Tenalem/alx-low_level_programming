@@ -7,7 +7,7 @@
  * Description: shows if input is positive, negative or zero
  * Return: 1 for positive, -1 for negative and 0 for 0
  */
-void jack_bauer(int n)
+void jack_bauer(void)
 {
 	int x = 0;
 	int j = 0;

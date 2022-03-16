@@ -2,39 +2,29 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * times_table - function that prints the 9 times table, starting with 0
- *
+ *print_to_98 - prints all natural numbers from n to 98
+ * @n: input number to check
  * Return: nothing.
  */
 
-void times_table(void)
+void print_to_98(int n)
 {
-	int row, col;
-	int mult = 0;
-
-	for (row = 0; row < 10; row++)
+	if (n < 98)
 	{
-		for (col = 0; col < 10; col++)
+		for (; n < 98; n++)
 		{
-			mult = (row * col);
-			if (mult < 10)
-			{
-				if (col != 0)
-				{
-					_putchar(' ');
-					_putchar(' ');
-				}
-				_putchar(mult + '0');
-			}
-			else
-			{
-				_putchar(' ');
-				_putchar((mult / 10) + '0');
-				_putchar((mult % 10) + '0');
-			}
-			if (col != 9)
-				_putchar(',');
+			printf("%d, ", n);
 		}
-		_putchar('\n');
+	}
+	else if (n > 98)
+	{
+		for (; n > 98; n--)
+		{
+			printf("%d, ", n);
+		}
+	}
+	if (n == 98)
+	{
+		printf("%d\n", n);
 	}
 }

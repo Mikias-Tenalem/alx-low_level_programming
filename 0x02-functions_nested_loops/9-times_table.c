@@ -2,27 +2,39 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * jack_bauer - tells time
- * Return: void
+ * times_table - function that prints the 9 times table, starting with 0
+ *
+ * Return: nothing.
  */
-void jack_bauer(void)
-{
-	int x = 0;
-	int j = 0;
 
-	while (x <= 23)
+void times_table(void)
+{
+	int row, col;
+	int mult = 0;
+
+	for (row = 0; row < 10; row++)
 	{
-		j = 0;
-		while (j <= 59)
+		for (col = 0; col < 10; col++)
 		{
-			_putchar((x / 10) + '0');
-			_putchar((x % 10) + '0');
-			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar('\n');
-			j += 1;
+			mult = (row * col);
+			if (mult < 10)
+			{
+				if (col != 0)
+				{
+					_putchar(' ');
+					_putchar(' ');
+				}
+				_putchar(mult + '0');
+			}
+			else
+			{
+				_putchar(' ');
+				_putchar((mult / 10) + '0');
+				_putchar((mult % 10) + '0');
+			}
+			if (col != 9)
+				_putchar(',');
 		}
-		x += 1;
+		_putchar('\n');
 	}
 }

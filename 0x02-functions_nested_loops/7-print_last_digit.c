@@ -20,6 +20,6 @@ int print_last_digit(int n)
 	else
 	{
 		p = n % 10;
-		_return (p + (p*10));
+		return (p + (p*10));
 	}
 }	

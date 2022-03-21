@@ -11,12 +11,12 @@ void print_rev(char *s)
 
 	int j;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = -1; s[i] != '\0'; i++)
 	{
 	}
 	for (j = i; j >= 0; j--)
 	{
-		printf("%c", s[j - 1]);
+		printf("%c", s[j]);
 	}
 	printf("\n");
 }

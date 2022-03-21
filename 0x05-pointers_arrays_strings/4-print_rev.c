@@ -14,9 +14,10 @@ void print_rev(char *s)
 	for (i = 0; s[i] != '\0'; i++)
 	{
 	}
-	for (j = i; j > -1; j--)
+	while (j = i && j > -1)
 	{
 		printf("%c", s[j]);
+		j--;
 	}
 	printf("\n");
 }

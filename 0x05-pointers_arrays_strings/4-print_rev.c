@@ -16,14 +16,7 @@ void print_rev(char *s)
 	}
 	for (j = i; j >= 0; j--)
 	{
-		if (s[j] != '\0')
-		{
-			printf("%c", s[j - 1]);
-		}
-		else
-		{
-			break;
-		}
+		printf("%c", s[j - 1]);
 	}
 	printf("\n");
 }

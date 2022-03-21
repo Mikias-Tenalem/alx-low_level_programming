@@ -18,7 +18,7 @@ void print_rev(char *s)
 	{
 		if (s[j] != '\0')
 		{
-			printf("%c", s[j]);
+			printf("%c", s[j - 1]);
 		}
 		else
 		{
